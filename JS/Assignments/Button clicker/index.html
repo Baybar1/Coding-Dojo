@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dojonary</h1>
+            <input type="search" name="search" placeholder="Search">
+            <button onclick="change(this)"class="login">Login</button>
+        </header>
+    </div>
+    <div class="container">
+        <div class="main-content">
+            <section class="box-left bold">
+                <div class="ninja-1">
+                    <div class="left">
+                        <h2>ninja</h2>
+                        <p class="italics">noun</p>
+                        <p>Plural: <span class="italics">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="right">
+                        <p>A practicioner skilled in the <br> <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="ninja-2">
+                    <div class="left">
+                        <h2>ninja</h2>
+                        <p class="italics">noun</p>
+                        <p>Plural: <span class="italics">ninjas</span></p>
+                        <button onclick="alert('Ninja was liked')">37 likes</button>
+                    </div>
+                    <div class="right">
+                        <p>A <a href="#">programmer</a> who breaks <br> down problems with <a href="#">zen</a>-like <br>focus</p>
+                    </div>
+                </div>
+            </section>
+            <section class="box-right">
+                <div class="dojonary bold">
+                    <p>Dojonary is <br> defined by <span>you</span></p>
+                    <button class="bold" onclick="remove(this)">Add Definition</button>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

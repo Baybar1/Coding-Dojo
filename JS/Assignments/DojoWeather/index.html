@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DojoWeather</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <h1>DojoWeather</h1>
+                <div class="nav-links">
+                    <ul>
+                        <li onclick="alert('Loading weather report...')"><a href="">Burbank</a></li>
+                        <li onclick="alert('Loading weather report...')"><a href="">Chicago</a></li>
+                        <li onclick="alert('Loading weather report...')"><a href="">Dallas</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="main-header">
+                <div class="city">
+                    <h2>San Jose</h2>
+                </div>
+                <div class="show-temp">
+                    <label>show temperature in</label>
+                    <select onchange="convert(this)">
+                        <option>&degC</option>
+                        <option>&degF</option>
+                    </select>
+                </div>
+            </div>
+            <div class="main-content">
+                <div class="days">
+                    <h3>Today</h3>
+                    <img src="/JS/Assignments/DojoWeather/images/some_rain.png">
+                    <p>some rain</p>
+                    <div class="degrees">
+                        <div class="degree-left">
+                            <p><span id="val1">24</span>&deg</p>
+                        </div>
+                        <div class="degree-right">
+                            <p><span id="val2">18</span>&deg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="days">
+                    <h3>Tomorrow</h3>
+                    <img src="/JS/Assignments/DojoWeather/images/some_sun.png">
+                    <p>some sun</p>
+                    <div class="degrees">
+                        <div class="degree-left">
+                            <p><span id="val3">27</span>&deg</p>
+                        </div>
+                        <div class="degree-right">
+                            <p><span id="val4">19</span>&deg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="days">
+                    <h3>Friday</h3>
+                    <img src="/JS/Assignments/DojoWeather/images/some_clouds.png">
+                    <p>some clouds</p>
+                    <div class="degrees">
+                        <div class="degree-left">
+                            <p><span id="val5">21</span>&deg</p>
+                        </div>
+                        <div class="degree-right">
+                            <p><span id="val6">16</span>&deg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="days">
+                    <h3>Saturday</h3>
+                    <img src="/JS/Assignments/DojoWeather/images/some_sun.png">
+                    <p>some sun</p>
+                    <div class="degrees">
+                        <div class="degree-left">
+                            <p><span id="val7">26</span>&deg</p>
+                        </div>
+                        <div class="degree-right">
+                            <p><span id="val8">21</span>&deg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="message">
+                    <img src="/JS/Assignments/DojoWeather/images/cookie.png">
+                    <div>
+                        <p class="stop">Stop! Cookie time</p>
+                        <p>We use cookies (sadly not the edible ones) to personalize <br> content and ads, to provide soical media features and to <br> analyse our traffic. <a href="#">Read more...</a></p>
+                    </div>
+                </div>
+                <button onclick="remove('footer')">I accept</button>
+            </footer>
+        </div>
+    </main>
+    
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

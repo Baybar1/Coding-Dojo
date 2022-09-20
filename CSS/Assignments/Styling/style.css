@@ -1,0 +1,26 @@
+* {
+    font-family: monospace;
+}
+
+.left {
+    color: white;
+    background-color: black;
+}
+
+.left span {
+    color: aqua;
+}
+
+.center {
+    color: white;
+    background-color: blueviolet;
+    font-style: oblique;
+    text-align: center;
+}
+
+.right {
+    background-color: lightblue;
+    color: rgb(80, 5, 80);
+    text-decoration: underline;
+    text-align: right;
+}

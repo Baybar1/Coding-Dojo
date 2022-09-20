@@ -1,0 +1,303 @@
+* {
+    font-size: 15px;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+
+
+.site-contain {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+.header {
+    background-color: black;
+    color: white;
+    
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    color: #B3B3B3;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: rgb(145, 144, 144);
+}
+
+.nav-list > li {
+    margin-right: 1rem;
+}
+
+.nav-list > li:last-child {
+    margin-right: 0;
+}
+
+.header-left .profile {
+    font-size: 2rem;
+}
+
+.nav-list .color-change {
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: #17A2B8;
+    padding: 2px .5rem;
+}
+
+/* end of header*/
+
+/*main boxes*/
+.user-boxes {
+    display: flex;
+    margin-top: 30px;
+}
+
+.col-1 {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.col-2 {
+    flex: 1;
+}
+
+/*column 1*/
+
+/*start of box 1*/
+
+.janes-box {
+    border: 3px solid #B3B3B3;
+    margin-bottom: 30px;
+}
+
+.janes-header {
+    background-color: #17A2B8;
+    padding: 40px;
+}
+
+.circle {
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    margin-left: 40px;
+}
+
+.circle img {
+    background-color: white;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.name {
+    margin-left: 50px;
+    position: relative;
+    bottom: 40px;
+}
+
+.name h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.location img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+.location p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.skills {
+    font-weight: bold;
+    line-height: 20px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.skills p {
+    font-size: .9rem;
+    word-spacing: 2px;
+}
+
+.edit img {
+    height: 1rem;
+    margin-right: 5px;
+    vertical-align: bottom;
+}
+
+.edit a {
+    font-size: .9rem;
+}
+
+/*end of box 1*/
+
+/* start of box 2*/
+
+.education {
+    border: 2px solid #B3B3B3;
+    border-bottom: none;
+}
+.education header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.experience {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.experience h2 {
+    font-size: 1.3rem;
+}
+
+.experience .date {
+    color: #B3B3B3;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    font-size: .8rem;
+}
+
+/*end of box 2*/
+
+/*end of column1*/
+
+/*start of column2*/
+
+/*start of box 1*/
+
+.requests-box {
+    border: 2px solid #B3B3B3;
+    margin-bottom: 60px;
+}
+.requests-box header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.requests-box header span {
+    padding: 1px 6px;
+    background-color: #B3B3B3;
+    border-radius: 50%;
+    margin-right: 5px;
+    color: #333;
+}
+
+.requests {
+    margin: 8px;
+}
+.todd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px 0;
+}
+.requests img {
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.todd .left {
+    display: flex;
+    align-items: center;
+}
+.phil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.phil .left {
+    display: flex;
+    align-items: center;
+}
+
+/* end of box 1*/
+
+/*start of box2*/
+
+.connections-box {
+    border: 2px solid #B3B3B3;
+    
+}
+.connections-box header {
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.connections-box header span {
+    padding: 1px 5px;
+    border-radius: 50%;
+    background-color: #B3B3B3;
+    margin-right: 5px;
+    color: #333;
+}
+
+.connections {
+    margin: 8px;
+}
+.friends {
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+}
+.connections img {
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.connections-box footer {
+    border-top: 2px solid #B3B3B3;
+    padding: 10px;
+}
+
+/*end of box 2*/
+
+/*end of column2*/
