@@ -42,4 +42,28 @@
 // }
 // positiveNegative();
 
+// var arr = [2,34,4,90,-1,20,5];
+// function highNum(arr) {
+//     var max = arr[0];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (arr[i] > max) {
+//             max = arr[i];
+//         }
+//     } 
+//     return max;
+// }
+// console.log(highNum(arr))
+
+// jQuery
+
+// $(document).ready(function(){
+//     // let h1 = document.querySelector("h1");
+//     // h1.addEventListener('click', myFunction);
+//     // function myFunction() {
+//     //     h1.innerText = "I love web fund"
+//     // }
+//     $('h1').click(function(){
+//         this.innerText = "I love web fund";
+//     })
+// }) 
 
