@@ -67,3 +67,51 @@
 //     })
 // }) 
 
+// let romanToInt = function(s) {
+//     let I = 1
+//     I = String(I)
+
+//     let M = 50
+//     M = String(M)
+
+//     let arr = s.split('')
+//     let initial = 0
+//     let intTotal = arr.reduce((a,b) => {
+//         return a + roman[b]
+//         , initial
+//     })
+//     return intTotal
+// }    
+
+//     const roman = {
+//     "I" : 1,
+//     "V" : 5
+// }
+// roman["v"]
+
+// console.log(romanToInt('III'))
+
+// function threesFives(num){
+//     let count = 0;
+//     for (let i = 1; i <= num; i++) {
+//         if (i % 3 === 0 || i % 5 === 0) {
+//             continue;
+//         }
+//         count += i
+//     }
+//     return count;
+
+
+// }
+
+// console.log(threesFives(10))
+
+
+// function sumToOne(num) {
+    
+//     sum  = num % 9 || 9;
+
+//     console.log(sum)
+// }
+
+// sumToOne(35798);
